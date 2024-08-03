@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nombre del Restaurate</title>
+</head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class= "container hero"> 
+                <div class="customers-support">
+                    <i class="fa-solid fa-headset"></i> <!--Es el icono para "el soporte"-->
+                    <div class="content-customers-support">
+                        <span class="text">Soprote al Cliente</span>
+                        <span class="number">449-123-4567</span>
+                    </div>
+                </div>
+
+                <div class="container-logo">
+                    <i class="fa-solid fa-utensils"></i>
+                    <h1 class="logo"><a href="#"> Restaurante</a></h1>
+                </div>
+
+                <div class="container-user">
+                    <i class="fa-solid fa-cart-shopping"></i><!--Incono para el Carrito-->
+                    <i class="fa-solid fa-user"></i><!--Icono para el usuario-->
+                    <div class="content-shopping-car">
+                        <span class="text">Carrito de Compras</span>
+                        <span class="number">(0)</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="#">Incio</a></li>
+                    <li><a href="#">Comida Bodas</a></li>
+                    <li><a href="#">Comida XV</a></li>
+                    <li><a href="#">Comida en General</a></li>
+                    <li><a href="#">Más</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar...">
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    
+                </form>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="banner">
+        <div class="content-banner">
+            <p>Platillo de la semana</p>
+            <h2> Enchiladas <br />Verdes</h2>
+            <a href="#">Comprar ahora</a> <!--Mandar a una pantalla de compra-->
+        </div>
+    </section>
+
+    <!--Darle noticias o datos sobre el restaurante, aun que podriamos agregarle botones para uso-->
+    <main class="main-content">
+        <section class="container container-features">
+
+            <div class="card-feature">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="feature-content">
+                    <span>Ubicación Local</span>
+                    <p>Dirección Av con ejemplo y tal </p>
+                    <p>Calle y numero o referencias</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-wallet"></i>
+                <div class="feature-content">
+                    <span>Contrareembolso</span>
+                    <p>100% garantía de devolución de dinero</p>
+                    <p>en envios dañados o no se</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-gift"></i>
+                <div class="feature-content">
+                    <span>Promociones semanales</span>
+                    <p>Ofrece bonos especiales con regalo</p>
+                    <p>por semana o mes</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-headset"></i>
+                <div class="feature-content">
+                    <span>Servicio al cliente 24/7</span>
+                    <p>LLámenos 24/7 al 449-123-4567</p>
+                </div>
+            </div>
+        </section> <!--En este apartado es impoetante checar el tamaño del texto para poder cuadrar con la pagina responsiva-->
+
+        <section class="container top-categories">
+            <h1 class="heading-1">Mejores Categorías</h1>
+            <div class="container-categories">
+                <div class="card-category category-carnitas">
+                    <p>Carnitas</p>
+                    <span>Ver más</span>
+                </div>
+                <div class="card-category category-pozole">
+                    <p>Pozole</p>
+                    <span>Ver más</span>
+                </div>
+                <div class="card-category category-enchiladas">
+                    <p>Enchiladas V/R</p>
+                    <span>Ver más</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="container top-products">
+            <h1 class="heading-1">Mejores Productos</h1>
+
+            <div class="container-options">
+                <span class="active">Destacados</span>
+                <span>Más recientes</span>
+                <span>Mejores Vendidos</span>
+            </div>
+
+            <div class="container-products">
+                <!-- Comida Muestra 1 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="image/MolePoblano.jpg" 
+                        alt="MolePoblano.jpg" />
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Mole Poblano</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$76 <span>$90</span></p>
+                    </div>
+                </div>
+                <!-- Comida Muestra 2 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img
+                            src="image/Tacos.jpg"
+                            alt="Tacos.jpg"
+                        />
+                        <span class="discount">-10%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h3>Tacos al Pastor</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$46 <span>$50</span></p>
+                    </div>
+                </div>
+                <!-- Comida Muestra 3 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img
+                            src="image/Pastel.webp"
+                            alt="Pastel.webp"
+                        />
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <h3>Pastel de Café</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$199.99</p>
+                    </div>
+                </div>
+                <!-- Comida Muestra 4 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="image/Quesabirrias3.jpg" 
+                        alt="Quesabirrias3.jpg" />
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i> <!--Esto pues es literalmente las estrellas que se muestran en la imagen-->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Quesabirrias</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$70</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <br> <!--Un salto de linea no mas porque me perdi y necesito ubicarme-->
+
+
+
+        <section class="gallery">
+            <img
+                src="image/MolePoblano.jpg"
+                alt="Gallery Img1"
+                class="gallery-img-1"
+            /><img
+                src="image/Carnitas.avif"
+                alt="Gallery Img2"
+                class="gallery-img-2"
+            /><img
+                src="image/Enchiladas.jpg"
+                alt="Gallery Img3"
+                class="gallery-img-3"
+            /><img
+                src="image/Pozole.jpg"
+                alt="Gallery Img4"
+                class="gallery-img-4"
+            /><img
+                src="image/Quesabirrias3.jpg"
+                alt="Gallery Img5"
+                class="gallery-img-5"
+            />
+        </section>
+
+        <section class="container specials">
+            <h1 class="heading-1">Especiales</h1>
+
+            <div class="container-products">
+                <!-- Producto 1 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="image/MolePoblano.jpg" alt="Cafe Irish" />
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Cafe Irish</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$4.60 <span>$5.30</span></p>
+                    </div>
+                </div>
+                <!-- Producto 2 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img
+                            src="img/cafe-ingles.jpg"
+                            alt="Cafe incafe-ingles.jpg"
+                        />
+                        <span class="discount">-22%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Cafe Inglés</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$5.70 <span>$7.30</span></p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/cafe-viena.jpg" alt="Cafe Viena" />
+                        <span class="discount">-30%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h3>Cafe Viena</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$3.85 <span>$5.50</span></p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" />
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Cafe Liqueurs</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$5.60</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Un campo para poner comentarios que quiera agregar el jefe o personas externas-->
+        <section class="container blogs">
+            <h1 class="heading-1">Últimos Blogs</h1>
+
+            <div class="container-blogs">
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="image/Quesabirrias3.jpg" alt="Imagen random de un comentario" />
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>Lorem, ipsum dolor sit</h3>
+                        <span>01 Agosto 2024</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Iste, molestiae! Ratione et, dolore ipsum
+                            quaerat iure illum reprehenderit non maxime amet dolor
+                            voluptas facilis corporis, consequatur eius est sunt
+                            suscipit?
+                        </p>
+                        <div class="btn-read-more">Leer más</div>
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="image/Tacos.jpg" alt="Imagen random de un comentario 2" />
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>Lorem, ipsum dolor sit</h3>
+                        <span>10 Enero 2024</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Iste, molestiae! Ratione et, dolore ipsum
+                            quaerat iure illum reprehenderit non maxime amet dolor
+                            voluptas facilis corporis, consequatur eius est sunt
+                            suscipit?
+                        </p>
+                        <div class="btn-read-more">Leer más</div>
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="image/Quesabirrias3.jpg" alt="Imagen random de un comentario 3" />
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>Lorem, ipsum dolor sit</h3>
+                        <span>24 Noviembre 2024</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Iste, molestiae! Ratione et, dolore ipsum
+                            quaerat iure illum reprehenderit non maxime amet dolor
+                            voluptas facilis corporis, consequatur eius est sunt
+                            suscipit?
+                        </p>
+                        <div class="btn-read-more">Leer más</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Dirección: 71 Pennington Lane Vernon Rockville, CT
+                            06066
+                        </li>
+                        <li>Teléfono: 123-456-7890</li>
+                        <li>Fax: 55555300</li>
+                        <li>Email: CorreoDeAyuda@ayuda.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                        <span class="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </span>
+                        <span class="youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </span>
+                        <span class="pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </span>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Información Delivery</a></li>
+                        <li><a href="#">Politicas de Privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Contactános</a></li>
+                    </ul>
+                </div>
+
+                <div class="my-account">
+                    <p class="title-footer">Mi cuenta</p>
+
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Historial de ordenes</a></li>
+                        <li><a href="#">Lista de deseos</a></li>
+                        <li><a href="#">Subscripcion</a></li>
+                        <li><a href="#">Reembolsos</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+                    <p class="title-footer">Subscripcion a nuestra pagina</p>
+
+                    <div class="content">
+                        <p>
+                            Suscríbete a nuestra pagina y recibe notificaciones
+                            y mantente al dia con ofertas y promociones!
+                        </p>
+                        <input type="email" placeholder="Ingresa el correo aquí...">
+                        <button>Suscríbete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Luis Fernando Ruelas Romo &copy; 2024   
+                </p>
+
+                <img src="img/payment.png" alt="Pagos">
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/ac19d980cc.js" crossorigin="anonymous"> </script> 
+    <!--Este es un link de una pagina gratuita que nos da Iconos -->
+
+</body>
+</html>
