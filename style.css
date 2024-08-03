@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-	--primary-color: #5983c4;
-	--background-color: #f9f5f0;
-	--dark-color: #151515;
+	--primary-color: #3567a8;
+	--background-color: #b9c9ff;
+	--dark-color: #000000;
 }
 
 html {
@@ -43,14 +43,15 @@ html {
 	padding: 2rem 0;
 }
 
+
 .customer-support {
 	display: flex;
 	align-items: center;
-	gap: 2rem;
+	gap: 4rem;
 }
 
 .customer-support i {
-	font-size: 3.3rem;
+	font-size: 4rem;
 }
 
 .content-customer-support {
@@ -89,8 +90,8 @@ html {
 	border-right: 1px solid #e2e2e2;
 }
 
-.container-user .fa-basket-shopping {
-	font-size: 3rem;
+.container-user .fa-cart-shopping {
+	font-size: 3rem;						/*Carrito estilo*/
 	color: var(--primary-color);
 	padding-left: 1rem;
 }
@@ -572,15 +573,6 @@ html {
 .gallery-img-3 {
 	grid-column: 2/4;
 	grid-row: 1/3;
-}
-
-/* Especiales */
-
-.specials {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	margin-bottom: 3rem;
 }
 
 /*  Blogs */
